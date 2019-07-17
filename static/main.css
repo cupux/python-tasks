@@ -1,0 +1,106 @@
+*{
+	margin:0;
+	padding: 0;
+}
+#container{
+	width:1200px;
+	margin: 0 auto;
+	border:1px solid black;
+	background-image:url(max.jpg);
+
+}
+	#header{
+		background: brown;
+		width: 1200px;
+		padding: 10px 0px;
+		text-align: center;
+		color:white;
+
+	}
+	#nav{
+		background: orange;
+		width: 1200px;
+	}
+	 #nav ul{
+	 	list-style: none;
+
+	 }
+	 	#nav ul li{
+	 		float: left;
+	 		width: 240px;
+	 		height: 34px;
+	 		padding-top: 10px;
+	 		text-align: center;
+	 	}
+	 		#nav ul li:hover {
+	 			background: #ffd280;
+	 		}
+	 			.post{
+	 				background: silver;
+	 				margin: 20px;
+	 			}
+	 			.title{
+	 				background: brown;
+	 				color: white;
+	 				padding:7px;
+
+	 			}
+	 			.description{
+	 				background: #f1f1f1;
+	 				padding:15px;
+	 			}
+	#middle{
+		width: 1200px;
+	}
+		#left{
+			width: 800px;
+			float: left;
+		}
+		#right{
+			width: 375px;
+			height: 380px;
+			float: left;
+			padding-top: 20px;
+		}
+			#right h2{
+				text-align:center;
+			}
+		#total_post{
+			margin: 10px 0px;
+		}
+		.latest_post {
+			background: brown;
+			text-align: center;
+			padding: 10px 0px;
+			color: white;
+			margin: 10px 0px;
+		}
+		#news_letter {
+
+		}
+			.news_letter_head{
+				text-align: center;
+				font-size: 25px;
+
+			}
+			input[type="text"]{
+				width: 377px;
+				height: 25px;
+
+			}
+			input[type="submit"]{
+				width: 377px;
+				height: 40px;
+				font-size: 30px;
+				background: brown;
+
+			}
+			input[type="submit"]:hover{
+				background: orange;
+			}
+	#footer{
+		background: brown;
+		width: 1200px;
+		height: 50px;
+
+	}

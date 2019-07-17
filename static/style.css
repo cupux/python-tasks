@@ -1,0 +1,118 @@
+#jkm {
+	color: blue;
+	background-color:orange;
+	padding: 5px;
+	/*you can only let the padding affect the top, down,left,right so that it doesnt affect the other ones*/
+	margin: 10px;
+	/*you can only let the margin affect the top, down,left,right so that it doesnt affect the other ones*/
+	/*it can also be written as; margin: top right down left;  
+	which means the numbers placed there will corresponed to the ones written in that order		*/
+	margin: 0 auto;
+	/*In margin you can also have what is at the top, the "0" is for the top and down and the auto which means
+	equal at both ends is for the left and right */
+	border: 0px black dashed;
+	/*With the border tag it creates a deep line or anything around the border. the first one is the size of
+	the border the second is the color(can use any color ) and the third is the style you want to apply on
+	the border(we have dotted,solid and the dashed)
+	you can also take them individually and do them eg:
+	since you already know thier names then; border-color,border-width,border-style and also you can use one 
+	border style for one place and the other for the other side also by bringing your left,right and so on
+	example; border-left-style and so on*/
+	/*We also have none which will remove any border*/ border:none;
+	text-decoration:underline;
+	/*This underlines the text inside. we also have overline which underlines at the top of it and line-through which act as if the 
+	text is canceled*/
+	text-align:center;
+	/*In this we have right left and center which you already know*/
+	vertical-align: middle;
+	/*This makes it align at the middle of the vertical alignment*/
+	text-transform:uppercase;
+	/*We also have lowercase which you already know about*/
+	word-spacing:10px;
+	/*This seperates them word by word*/
+	letter-spacing:10px;
+	/*This seperates the letters one by one*/
+	line-height:2px;
+	/*THis gives spaces between lines*/
+	font-size: 20px;
+	/*increases the size of the text*/
+	font-style:italic;
+	/*used to design the font but you cannot use bold here*/
+	font-weight:bold;
+	/*This can be used to increase the thickness of the text*/
+	font-variant:small-caps;
+	/*This makes the first letter large whiles the other letters small although they are all in upper case letter*/
+	font-family: arial;
+	/*this is used for determining the font type you want*/
+	background-image: url(Magazine-Template-PSD-Mockup.jpg);
+	background-size: cover;
+	/*you can use cover for the image to cover the screen to prevent you from making a try and error with the coordinates*/
+	background-repeat: no-repeat;
+	/*you can reapeat it in the y-axis or the x which is written as repeat-y or repeat at all direction*/
+	background-position: center;
+	/*you can also make a send it to anywhere either left bottom or etc but with this we dont and any "-" to it*/ 
+	}
+	#div1{
+		color: black;
+	background-color:orange;
+	width: 300;
+	height: 300;
+	float: right;
+	margin: 10px;
+	}
+	#div2{
+		color: red;
+	background-color:orange;
+	width: 300;
+	height: 300;
+	float: right;
+	margin-left: 50px;
+	margin-top: 10px;
+	}
+	a:link{
+		color:green;
+	}
+	a:visited{
+		color:red;
+	}
+	a:hover{
+		color:black;
+		border-bottom: 5px solid red;
+		/*This makes the hovering nicer compared to first and makes it makes move nicely*/
+
+	}
+	table {
+				border-collapse:collapse;
+				/*This closes the gap that the border property creates to make it nice */
+				border-bottom: 2px solid black;
+				/* */
+				border-right: 0px solid white;
+				/*This is to clear the border at the right side*/
+				border-left: 0px solid white;
+				/*This is to clear the border at the left  side*/
+			}
+			tbody tr:hover {
+				background: silver;
+				/*THis is to make a background color to make the table nice*/
+			}
+	ul {
+			list-style-position: inside;
+			 /*This helps in the positioning of the list inside the page
+			 we also have the outside one which sends the list outeside the page*/
+			}
+	li {
+				list-style:none;
+				/*This removes the style that is used to start the words*/
+			}
+	input[type='text'], input[type='password'], select{
+				width: 200px;
+			}
+			/*the type there has made me seperated the different input available there*/
+	textarea {
+				resize: none;
+				/*This prevents me from resizing it*/
+			}
+	input:focus{
+				background:silver;
+			}
+			/*Focus is used mustly on text to make you know where you are typing*/
